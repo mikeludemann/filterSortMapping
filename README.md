@@ -18,7 +18,7 @@ let cities = [
 
 const x = (city) => city.population < 3000000;
 const y = (c1, c2) => c1.population < c2.population;
-const z = (city) => city.name + ': ' + city.population + '<br />';
+const z = (city) => city.name + ': ' + city.population;
 
 var element = document.getElementById("a1");
 
